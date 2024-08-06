@@ -127,6 +127,24 @@ header h1 {
     justify-content: center;
 }
 
+#range-up:hover {
+    cursor: pointer;
+    background-color: var(--red3);
+}
+
+#range-down:hover {
+    cursor: pointer;
+    background-color: var(--red3);
+}
+
+#range-up:active {
+    background-color: var(--red4);
+}
+
+#range-down:active {
+    background-color: var(--red4);
+}
+
 
 /* Groups */ 
 .groups {

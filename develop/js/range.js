@@ -23,6 +23,7 @@ rangeUp.addEventListener('click', function () {
 
 });
 
+
 rangeDown.addEventListener('click', function () {
     // console.log('clicked')
     range.value--
