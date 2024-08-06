@@ -269,5 +269,52 @@ header h1 {
 }
 
 
+@media (max-width: 420px) {
+    #bpm-border {
+        width: 150px;
+        height: 150px;
+        right: -3%;
+    }
+
+    #beat-note {
+        width: 175px;
+        height: 75px;
+        right: -18%;
+    }
+
+    #beat-note p {
+        font-size: 15px;
+    }
+    
+    #beat-note #num {
+        font-size: 20px;
+    }
+
+    #divide {
+        right: -24%;
+    }
+    #accent {
+        right: -24%;
+    }
+
+    #customRange1 {
+        width: 250px;
+    }
+
+    .sect {
+        width: 80px;
+    }
+
+    .note {
+        width: 80px;
+    }
+
+    .group-buttons .buttons .button {
+        width: 165px;
+    }
+
+
+}
+
 
 
