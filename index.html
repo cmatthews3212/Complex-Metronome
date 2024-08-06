@@ -12,17 +12,33 @@
     <header class="text-center p-3">
         <h1 class="display-4">Complex Metronome</h1>
     </header>
-    <section class="top d-flex m-5">
+    <section class="top d-flex mt-5">
         <div id="bpm-border" class=" d-flex justify-content-center flex-column align-items-center">
             <span class="bpm-num">120</span>
             <span class="bpm">bpm</span>
         </div>
 
         <div class="buttons">
-            <div id="beat-note" class="mb-3 d-flex">
+            <div id="beat-note" class="mb-3 p-2 d-flex justify-content-around align-items-center">
                 <p>Beat</p>
-                <a href="./develop/assets/plus.svg"></a>
-                <p><u>4/4</u></p>
+                    <div class="plus-minus d-flex flex-column">
+                        <span id="plus" class="material-symbols-outlined mb-2">
+                            add
+                        </span>
+                        <span id="minus" class="material-symbols-outlined">
+                            remove
+                        </span>
+                    </div>
+                
+                <p id="num"><u>4/4</u></p>
+                    <div class="plus-minus d-flex flex-column">
+                        <span id="plus" class="material-symbols-outlined mb-2">
+                            add
+                        </span>
+                        <span id="minus" class="material-symbols-outlined">
+                            remove
+                        </span>
+                    </div>
                 <p>Note</p>
                 
             </div>
@@ -35,6 +51,15 @@
             </div>
         </div>
 
+    </section>
+    <section class="middle d-flex justify-content-around mt-5">
+        <span id="range-up" class="material-symbols-outlined mb-2">
+            add
+        </span>
+        <input type="range" min="40" max="218" class="form-range" id="customRange1">
+        <span id="range-down" class="material-symbols-outlined">
+            remove
+        </span>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>

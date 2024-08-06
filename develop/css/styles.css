@@ -7,7 +7,7 @@
     --black: #0000;
 }
 
-
+/* Header Bar */
 header {
     background-color: var(--red2);
 }
@@ -16,13 +16,15 @@ header h1 {
     color: var(--white);
 }
 
+/* bpm Circle */
+
 #bpm-border {
     border: solid var(--red1) 5px;
     border-radius: 50%;
     width: 175px;
     height: 175px;
     position: relative;
-    right: 5%;
+    right: -5%;
 }
 
 .top .bpm-num {
@@ -35,37 +37,41 @@ header h1 {
     font-size: 15px;
 }
 
+/* beat/note button */
+
 #beat-note {
     background-color: var(--red1);
     border-radius: 5px;
-    width: 175px;
-    height: 50px;
+    width: 200px;
+    height: 75px;
     position: relative;
-    right: -10%;
-}
-#divide {
-    background-color: var(--red1);
-    border-radius: 5px;
-    width: 150px;
-    height: 50px;
-    position: relative;
-    right: -15%;
-}
-#accent {
-    background-color: var(--red1);
-    border-radius: 5px;
-    width: 150px;
-    height: 50px;
-    position: relative;
-    right: -15%;
+    right: -20%;
 }
 
 #beat-note p {
     color: white;
 }
 
-#beat-note a {
-    color: white;
+#beat-note #num {
+    font-size: 25px;
+}
+
+#beat-note #plus, #minus {
+    color: var(--red1);
+    background-color: white;
+    width: auto;
+    height: 25px;
+    border-radius: 5px;
+}
+
+/* divide button */
+#divide {
+    background-color: var(--red1);
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+    position: relative;
+    right: -32%;
 }
 
 #divide p {
@@ -74,11 +80,50 @@ header h1 {
     font-size: 20px;
     color: white;
 }
+
+/* accent button */
+#accent {
+    background-color: var(--red1);
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+    position: relative;
+    right: -32%;
+}
+
 #accent p {
     position: relative;
     top: 5px;
     font-size: 20px;
     color: white;
 }
+
+
+/* Range Slider */
+#customRange1 {
+    width: 300px;
+}
+
+#customRange1::-webkit-slider-thumb {
+    background-color: var(--red1);
+    position: relative;
+    top: -5px;
+    width: 30px;
+    height: 30px;
+}
+
+#customRange1::-webkit-slider-runnable-track {
+    background-color: var(--red1);
+}
+
+#range-up, #range-down {
+    color: white;
+    background-color: var(--red1);
+    width: auto;
+    height: 25px;
+    border-radius: 5px;
+}
+
+
 
 
