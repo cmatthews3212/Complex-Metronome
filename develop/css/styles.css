@@ -56,7 +56,7 @@ header h1 {
     font-size: 25px;
 }
 
-#beat-note #plus, #minus {
+#beat-note #beat-plus, #beat-minus, #note-plus, #note-minus {
     color: var(--red1);
     background-color: white;
     width: auto;
@@ -64,25 +64,36 @@ header h1 {
     border-radius: 5px;
 }
 
-#beat-note #plus:hover {
+#beat-note #beat-plus:hover {
+    cursor: pointer;
+    background-color: black;
+}
+#beat-note #beat-minus:hover {
+    cursor: pointer;
+    background-color: black;
+}
+#beat-note #note-plus:hover {
+    cursor: pointer;
+    background-color: black;
+}
+#beat-note #note-minus:hover {
     cursor: pointer;
     background-color: black;
 }
 
-
-#beat-note #plus:active {
+#beat-note #beat-plus:active {
+    background-color: var(--red3);
+}
+#beat-note #beat-minus:active {
+    background-color: var(--red3);
+}
+#beat-note #note-plus:active {
+    background-color: var(--red3);
+}
+#beat-note #note-minus:active {
     background-color: var(--red3);
 }
 
-#beat-note #minus:hover {
-    cursor: pointer;
-    background-color: black;
-}
-
-
-#beat-note #minus:active {
-    background-color: var(--red3);
-}
 
 
 /* divide button */
