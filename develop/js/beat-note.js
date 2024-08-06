@@ -6,35 +6,35 @@ const beatNum = document.getElementById('beatNum');
 const noteNum = document.getElementById('noteNum');
 
 let beatNoteVal = 4;
-function incrementCount() {
+function incrementValue() {
     beatNoteVal++;
 }
-function decrementCount() {
+function decrementValue() {
     if (beatNoteVal > 0 ) {
         beatNoteVal--;
     }
 }
 
 beatPlus.addEventListener('click', () => {
-    incrementCount();
+    incrementValue();
     beatNum.innerText = beatNoteVal;
     
 });
 
 beatMinus.addEventListener('click', () => {
-    decrementCount();
+    decrementValue();
     beatNum.innerText = beatNoteVal;
     
 });
 
 notePlus.addEventListener('click', () => {
-    incrementCount();
+    incrementValue();
     noteNum.innerText = beatNoteVal;
     
 });
 
 noteMinus.addEventListener('click', () => {
-    decrementCount();
+    decrementValue();
     noteNum.innerText = beatNoteVal;
     
 });
