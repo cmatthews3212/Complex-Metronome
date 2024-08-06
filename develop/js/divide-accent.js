@@ -25,4 +25,14 @@ divide.addEventListener("click", () => {
         divideText.innerText = "Divide by 0"
 
     }
+});
+
+accent.addEventListener('click', () => {
+    incrementCount();
+    if (count === 1) {
+        accentText.innerText = "Accent Off";
+    } else if (count > 1) {
+        count = 0;
+        accentText.innerText = "Accent On"
+    }
 })
