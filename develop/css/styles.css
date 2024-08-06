@@ -119,9 +119,38 @@ header h1 {
 #range-up, #range-down {
     color: white;
     background-color: var(--red1);
-    width: auto;
-    height: 25px;
+    width: 35px;
+    height: 35px;
     border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Groups */ 
+.groups {
+    display: flex;
+    justify-content: center;
+}
+.sect {
+    background-color: var(--red1);
+    width: 90px;
+    height: 30px;
+    margin: 8px 3px 8px 3px;
+}
+
+
+.notes {
+    display: flex;
+    justify-content: center;
+}
+
+.note {
+    background-color: var(--red1);
+    width: 90px;
+    height: 7px;
+    margin: 10px 3px 10px 3px;
 }
 
 
