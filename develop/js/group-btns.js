@@ -351,14 +351,66 @@ for (let i = 0; i < groupPlus.length; i++) {
             incrementGroupCount14();
             groupButtons[13].children[2].innerText = groupCount14;
         }else if (groupPlus[i] == groupButtons[14].children[3]) {
-            incrementGroupCount13();
-            groupButtons[14].children[2].innerText = groupCount13;
-        }else if (groupPlus[i] == groupButtons[14].children[3]) {
             incrementGroupCount15();
             groupButtons[14].children[2].innerText = groupCount15;
         }else if (groupPlus[i] == groupButtons[15].children[3]) {
             incrementGroupCount16();
             groupButtons[15].children[2].innerText = groupCount16;
+        }
+        
+    })
+}
+
+for (let i = 0; i < groupMinus.length; i++) {
+    groupMinus[i].addEventListener('click', () => {
+        if(groupMinus[i] === groupButtons[0].children[1]) {
+            decrementGroupCount1();
+            groupButtons[0].children[2].innerText = groupCount1;
+        } else if (groupMinus[i] == groupButtons[1].children[1]) {
+            decrementGroupCount2();
+            groupButtons[1].children[2].innerText = groupCount2;
+        } else if (groupMinus[i] == groupButtons[2].children[1]) {
+            decrementGroupCount3();
+            groupButtons[2].children[2].innerText = groupCount3;
+        } else if (groupMinus[i] == groupButtons[3].children[1]) {
+            decrementGroupCount4();
+            groupButtons[3].children[2].innerText = groupCount4;
+        }else if (groupMinus[i] == groupButtons[4].children[1]) {
+            decrementGroupCount5();
+            groupButtons[4].children[2].innerText = groupCount5;
+        }else if (groupMinus[i] == groupButtons[5].children[1]) {
+            decrementGroupCount6();
+            groupButtons[5].children[2].innerText = groupCount6;
+        }else if (groupMinus[i] == groupButtons[6].children[1]) {
+            decrementGroupCount7();
+            groupButtons[6].children[2].innerText = groupCount7;
+        }else if (groupMinus[i] == groupButtons[7].children[1]) {
+            decrementGroupCount8();
+            groupButtons[7].children[2].innerText = groupCount8;
+        }else if (groupMinus[i] == groupButtons[8].children[1]) {
+            decrementGroupCount9();
+            groupButtons[8].children[2].innerText = groupCount9;
+        }else if (groupMinus[i] == groupButtons[9].children[1]) {
+            decrementGroupCount10();
+            groupButtons[9].children[2].innerText = groupCount10;
+        }else if (groupMinus[i] == groupButtons[10].children[1]) {
+            decrementGroupCount11();
+            groupButtons[10].children[2].innerText = groupCount11;
+        }else if (groupMinus[i] == groupButtons[11].children[1]) {
+            decrementGroupCount12();
+            groupButtons[11].children[2].innerText = groupCount12;
+        }else if (groupMinus[i] == groupButtons[12].children[1]) {
+            decrementGroupCount13();
+            groupButtons[12].children[2].innerText = groupCount13;
+        }else if (groupMinus[i] == groupButtons[13].children[1]) {
+            decrementGroupCount14();
+            groupButtons[13].children[2].innerText = groupCount14;
+        }else if (groupMinus[i] == groupButtons[14].children[1]) {
+            decrementGroupCount15();
+            groupButtons[14].children[2].innerText = groupCount13;
+        }else if (groupMinus[i] == groupButtons[14].children[1]) {
+            decrementGroupCount16();
+            groupButtons[14].children[2].innerText = groupCount15;
         }
         
     })
