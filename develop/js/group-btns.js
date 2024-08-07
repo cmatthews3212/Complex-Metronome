@@ -3,7 +3,7 @@ const addGroup = document.getElementById('add-group');
 const removeGroup = document.getElementById('remove-group');
 const groupPlus = document.getElementsByClassName('groupPlus');
 const groupMinus = document.getElementsByClassName('groupMinus');
-const groupValue = document.getElementsByClassName('btn-value');
+// const groupValue = document.getElementsByClassName('btn-value');
 
 // console.log(groupButtons)
 
@@ -24,7 +24,6 @@ let btnClicked14 = false;
 let btnClicked15 = false;
 let btnClicked16 = false;
 
-let groupCount = 0;
 
 let groupCount1 = 0;
 let groupCount2 = 0;

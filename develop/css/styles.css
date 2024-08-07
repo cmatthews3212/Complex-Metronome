@@ -214,11 +214,11 @@ header h1 {
 
 .sect:hover {
     cursor: pointer;
-    background-color: var(--red3);
+    /* background-color: var(--red3); */
 }
 
 .sect:active {
-    background-color: var(--red4);
+    /* background-color: var(--red4); */
 }
 
 
