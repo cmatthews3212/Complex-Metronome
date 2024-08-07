@@ -1,5 +1,6 @@
 const groupButtons = document.getElementsByClassName('button');
-const groupPlus = document.getElementsByClassName('')
+const addGroup = document.getElementById('add-group');
+const removeGroup = document.getElementById('remove-group');
 
 // console.log(groupButtons)
 
@@ -92,5 +93,83 @@ for(let i = 0; i < groupButtons.length; i++) {
 
 
     })
-}
+};
+
+
+
+
+addGroup.addEventListener('click', () => {
+    incrementCount()
+    if (count === 1) {
+        groupButtons[1].classList.remove('d-none')
+        removeGroup.classList.remove('d-none')
+    } else if (count === 2) {
+        groupButtons[2].classList.remove('d-none')
+    } else if (count === 3) {
+        groupButtons[3].classList.remove('d-none')
+    } else if (count === 4) {
+        groupButtons[4].classList.remove('d-none')
+    } else if (count === 5) {
+        groupButtons[5].classList.remove('d-none')
+    } else if (count === 6) {
+        groupButtons[6].classList.remove('d-none')
+    } else if (count === 7) {
+        groupButtons[7].classList.remove('d-none')
+    } else if (count === 8) {
+        groupButtons[8].classList.remove('d-none')
+    } else if (count === 9) {
+        groupButtons[9].classList.remove('d-none')
+    } else if (count === 10) {
+        groupButtons[10].classList.remove('d-none')
+    } else if (count === 11) {
+        groupButtons[11].classList.remove('d-none')
+    } else if (count === 12) {
+        groupButtons[12].classList.remove('d-none')
+    } else if (count === 13) {
+        groupButtons[13].classList.remove('d-none')
+    } else if (count === 14) {
+        groupButtons[14].classList.remove('d-none')
+    } else if (count === 15) {
+        groupButtons[15].classList.remove('d-none')
+        addGroup.classList.add('d-none')
+    } 
+})
+
+removeGroup.addEventListener('click', () => {
+    decrementCount()
+    if (count === 0) {
+        groupButtons[1].classList.add('d-none')
+        removeGroup.classList.add('d-none')
+    } else if (count === 1) {
+        groupButtons[2].classList.add('d-none')
+    } else if (count === 2) {
+        groupButtons[3].classList.add('d-none')
+    } else if (count === 3) {
+        groupButtons[4].classList.add('d-none')
+    } else if (count === 4) {
+        groupButtons[5].classList.add('d-none')
+    } else if (count === 5) {
+        groupButtons[6].classList.add('d-none')
+    } else if (count === 6) {
+        groupButtons[7].classList.add('d-none')
+    } else if (count === 7) {
+        groupButtons[8].classList.add('d-none')
+    } else if (count === 8) {
+        groupButtons[9].classList.add('d-none')
+    } else if (count === 9) {
+        groupButtons[10].classList.add('d-none')
+    } else if (count === 10) {
+        groupButtons[11].classList.add('d-none')
+    } else if (count === 11) {
+        groupButtons[12].classList.add('d-none')
+    } else if (count === 12) {
+        groupButtons[13].classList.add('d-none')
+    } else if (count === 13) {
+        groupButtons[14].classList.add('d-none')
+    } else if (count === 14) {
+        groupButtons[15].classList.add('d-none')
+        addGroup.classList.remove('d-none')
+    }   
+
+})
 

@@ -304,6 +304,29 @@ header h1 {
     color: white;
 }
 
+#remove-group {
+    background-color: var(--red1);
+    color: white;
+    border-radius: 5px;
+    width: 120px;
+    height: 50px;
+    font-size: 45px;
+    font-weight: bold;
+    margin-right: 75px;
+
+}
+
+#remove-group:hover {
+    cursor: pointer;
+    background-color: white;
+    color: var(--red1)
+}
+
+#remove-group:active {
+    background-color: var(--red3);
+    color: white;
+}
+
 
 @media (max-width: 420px) {
     #bpm-border {
