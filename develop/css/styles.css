@@ -212,6 +212,15 @@ header h1 {
     margin: 8px 3px 8px 3px;
 }
 
+.sect:hover {
+    cursor: pointer;
+    background-color: var(--red3);
+}
+
+.sect:active {
+    background-color: var(--red4);
+}
+
 
 .notes {
     display: flex;
